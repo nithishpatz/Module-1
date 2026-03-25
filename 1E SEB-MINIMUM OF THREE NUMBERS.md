@@ -1,34 +1,27 @@
-# Experiment No: 1e – SEB-Minimum of Three Numbers
+# Experiment No: 1e – SEB-Minimum of Three float Numbers
 
 ## AIM  
 To write a Python program to find the minimum between three integer numbers using a conditional expression (Ternary operator).
 
 ## ALGORITHM  
-1. Begin the program.  
-2. Read the three numbers: `num1`, `num2`, and `num3` from the user.  
-3. Compare `num1`, `num2`, and `num3` to find the smallest number:  
-   - If `num1` is less than or equal to both `num2` and `num3`, then `num1` is the minimum.  
-   - Else, if `num2` is less than or equal to both `num1` and `num3`, then `num2` is the minimum.  
-   - Otherwise, `num3` is the minimum.  
-4. Print the minimum value along with the input numbers in the format:  
-   `"The minimum of num1, num2, num3 is min_num."`  
-5. Terminate the program.
+1. **Input values:** Read three float numbers `a`, `b`, and `c` from user input.
+2. **Find maximum:** Use the `max()` function to find the largest among `a`, `b`, and `c`, and store it in `maxx`.
+3. **Prepare output:** Format a string that includes the values of `a`, `b`, `c`, and `maxx`.
+4. **Display result:** Print the formatted string showing the maximum value.
+5. **End program:** Program execution completes after displaying the result.
+
 
 ## PROGRAM
 ```python
-# Reg.No-
-# Name-
-# Write your code here
-
-num1 = int(input())
-num2 = int(input())
-num3 = int(input())
-
-min_num = num1 if (num1 <= num2 and num1 <= num3) else num2 if (num2 <= num1 and num2 <= num3) else num3
-
-print(f"The minimum of {num1}, {num2}, {num3} is {min_num}")
+a=float(input())
+b=float(input())
+c=float(input())
+maxx=max(a,b,c)
+print(f"The maximum of {a}, {b}, {c} is {maxx}")
 ```
 
 ## OUTPUT
+![Screenshot 2025-04-29 111437](https://github.com/user-attachments/assets/5fcfb9fa-b1d4-4fcb-b03a-b997527b66a1)
 
 ## RESULT
+ Thus Python program to find the minimum between three integer numbers using a conditional expression (Ternary operator) is implemented successfully and verified
