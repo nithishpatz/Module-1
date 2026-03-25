@@ -1,26 +1,35 @@
-# Experiment No: 1c-Varibles and Expressions, Operators - Adding Two Complex Numbers
+# Experiment No: 1c-Varibles and Expressions, Operators - python program using the assignment operator ?=,%= on the given values.
 
 ## AIM
-To write a Python program for adding two complex numbers, and get the user input using the `eval()` function.
+to write  the python program using the assignment operator ?=,%= on the given values..
 
 ## ALGORITHM
-1. Begin the program.
-2. Use the `eval()` function to get two complex numbers as input from the user.
-3. Print the complex numbers entered by the user.
-4. Perform the addition of the two complex numbers using the `+` operator.
-5. Print the sum of the two complex numbers.
-6. Terminate the program.
+1.Input values: Read three integers a, b, and c from user input.
+
+2.Divide: Perform division b = b ÷ a and update b with the result (as a float).
+
+3.Modulo: Perform modulo operation c = c % a and update c with the remainder.
+
+4.Print b: Output the new value of b.
+
+5.Print c: Output the new value of c.
 
 ## PROGRAM
 ```python
-# Reg.No-
-#Name-
-#Write your code here
+
+a=int(input())
+b=int(input())
+c=int(input())
+b/=a
+c%=a
+print(b)
+print(c)
 
 ```
 
 ## OUTPUT
 
+![Screenshot 2025-04-29 110418](https://github.com/user-attachments/assets/eca5cf99-cacc-490e-8089-819f41b6bb6c)
 
 ## RESULT
-Thus the python program for  adding two complex numbers has been implemented and executed successfully.
+Thus the python program using the assignment operator ?=,%= on the given values has been implemented and executed successfully.
