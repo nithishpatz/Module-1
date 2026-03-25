@@ -1,31 +1,29 @@
-## Experiment No: 1d – Conditional Statements- Checking Vowel or not
+## Experiment No: 1d – Conditional Statements-  check whether the entered year is 20th century
 
 ## AIM  
-To Write a Python program to check whether the given character is a vowel or not using if..else statement
+TO Write a Python program to check whether the entered year is 20th century is valid or not using if..else statement
 ## ALGORITHM  
-1. Begin the program.  
-2. Take a character input from the user
-3. Convert the character to lowercase
-4. Check if the lowercase character is one of the vowels: 'a', 'e', 'i', 'o', 'u'
-5. If it is a vowel, display "The given character is a vowel"
-6. Otherwise, display "The given character is NOT a vowel"
-4. Terminate the program.
+1. **Input year:** Read an integer value `year` from user input.
+2. **Check range:** Evaluate whether `year` is between 1900 and 2000 (inclusive).
+3. **Condition true:** If the condition is true, proceed to step 4.
+4. **Print result (true):** Output "Year is 20th Century."
+5. **Print result (false):** If the condition is false, output "Year is NOT 20th Century."
+
+Want a flowchart or pseudocode version of this?
 
 ## PROGRAM
 ```python
-# Reg.No-
-# Name-
-# Write your code here
+year = int(input())
 
-char = input("Enter a character: ")
-char_lower = char.lower()
-
-if char_lower in ['a', 'e', 'i', 'o', 'u']:
-    print("The given character is a vowel")
+if 1900 <= year <= 2000:
+    print("Year is 20th Century.")
 else:
-    print("The given character is NOT a vowel")
+    print("Year is NOT 20th Century.")
 ```
 
 ## OUTPUT
+![Screenshot 2025-04-29 111054](https://github.com/user-attachments/assets/e4d123b2-d174-4262-9023-6298ec419117)
+
 
 ## RESULT
+thus the  whether the entered year is 20th century is valid or not using if..else statement is implementes and verified.
